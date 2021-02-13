@@ -28,7 +28,7 @@ class UserFactory extends Factory
             'phone' => $this->faker->sentence(),
             'age' => $this->faker->sentence(),
             'dateOfBirth' => $this->faker->date,
-            'setting_id' => $this->faker->unique()->numberBetween(1, 5)
+            'setting_id' => $this->faker->unique()->numberBetween(1, 2)
         ];
     }
 }
